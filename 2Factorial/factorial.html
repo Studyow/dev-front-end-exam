@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="my.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="factorial.js"></script>
+</head>
+  <body>
+
+    <div class="container mt-5 py-5">
+        <h1>Hello, Factorial world!</h1>
+        <strong>By: JLevz Bonifacio</strong><br>
+        <span>recursive function for get result of Factorial (Javascript )</span>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="col"></div>
+        <div class="col-6">
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">input </span>
+                <input id="posNo" type="text" class="form-control" placeholder="positive number" aria-label="positive number" aria-describedby="addon-wrapping">
+                <button class="btn btn-danger" onclick="add_element();" >calculate</button>
+            </div>
+
+            <br>
+
+            <ul class="list-group">
+                <li class="list-group-item">Original: <div id="mainNo"></div></li>
+                <li class="list-group-item">Result: <div id="resultNo"></div></li>
+            </ul>
+            <div id="errorA" class="text-danger"></div>
+
+        </div>
+        <div class="col"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

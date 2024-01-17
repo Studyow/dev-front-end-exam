@@ -1,0 +1,23 @@
+.nav-custom-bg {
+    background-color: #001e5a !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.contact-bg{
+    background-color: #003C82 !important;
+    color: powderblue !important;
+}
+
+.btnTabs {
+    color: ;
+    background-color: #003C82 !important;
+}
+
+
+.nav-tabs .nav-link.active {
+    color: #003C82 !important;
+    background-color: #ff7d00 !important;
+}
